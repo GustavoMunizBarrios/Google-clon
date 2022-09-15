@@ -6,28 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
+
+    <header class="header">
+        <nav class="navigation">
             <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><img src="./images/menu-icon.png" alt="menu"></li>
-                <li><img src="./images/profile-icon.png" alt="icon"></li>
+                <li class="navigation-gmail">
+                    <a href="https://mail.google.com/">Gmail</a>
+                </li>
+                <li class="navigation-images">
+                    <a href="https://photos.google.com/">Images</a>
+                </li>
+                <li class="navigation-menu">
+                    <img src="./images/menu-icon.png" alt="menu">
+                </li>
+                <li class="navigation-profile">
+                    <img src="./images/profile-icon.png" alt="profile">
+                </li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <figure>
+        <figure class="google">
             <img src="./images/google-con.png" alt="Google">
         </figure>
 
         <div>
-            <input type="Search or type a URL">
+            <input type="text">
         </div>
 
         <div></div>
     </main>
+
 </body>
 </html>

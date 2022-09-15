@@ -7,3 +7,43 @@ html{
     font-size: 62.5%; /*Aqui se ajusta a 62.5% el font-size para que 
     cada rem sea equivalente a 10px */
 }
+
+.header {
+    width: 100vw;
+    height: 10vw;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.navigation li{
+    padding-left: 20px;
+}
+.navigation-menu{
+    padding-top: 4.5px;
+}
+.navigation-menu img {
+    width: 2.3rem;
+ 
+}
+.navigation-profile img{
+    width: 2.3rem;
+}
+
+
+/*MAIN*/
+
+.google img {
+    width: 400px;
+}
